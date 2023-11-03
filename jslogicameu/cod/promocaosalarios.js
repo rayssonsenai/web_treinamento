@@ -24,3 +24,16 @@ if (anos >= 20) {
     bonus =  bonus = (salario*0.1)+salario
     console.log(`Salario de R$${bonus}`)
 }
+
+console.log('////////////////////////////////////////////////////////////////////////')
+var continuar = true
+while (continuar) {
+    if (anos >= 20) {
+        bonus = (salario*0.2)+salario
+        console.log(`Salario de R$${bonus}`)
+    } else {
+        bonus =  bonus = (salario*0.1)+salario
+        console.log(`Salario de R$${bonus}`)
+    }
+    
+}
